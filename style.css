@@ -20,10 +20,20 @@ body{
     background-color: #f0f0f0;
     color: black;
     padding: 20px;
+    margin: 20px;
     text-align: center;
     border: 5px solid rgb(0, 0, 0);
 }
 
 .block:nth-child(1){
     flex-grow: 1;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+     }
 }
