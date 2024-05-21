@@ -47,6 +47,10 @@ body{
     border: 5px solid rgb(0, 0, 0);
 }
 
+.another-block:nth-child(2){
+    flex-basis: 200px;
+}
+
 
 @media (max-width: 600px) {
     .container {
